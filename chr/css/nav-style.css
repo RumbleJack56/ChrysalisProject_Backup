@@ -1,0 +1,134 @@
+/* Setting up variables */
+:root{
+   --bg: #222;
+   --tint: rgba(215, 234, 238, 0.77);
+}
+
+/* Set borders for all Elements */
+*,*::befort,*::after{
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   margins: 0;
+}
+
+body{
+   background: var(--bg);
+}
+/* Navbar Settings */
+
+.header-shape{
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 10rem;
+   clip-path: polygon(0 0, 100% 0%, 100% 10rem, 85% 10rem, 70% 12rem,
+       55% 10.5rem, 45% 10.5rem, 30% 12rem, 20% 10.5rem, 0% 10rem);
+   box-shadow: 6px 5px 6px rgb(28, 31, 32);
+}
+
+header{
+   background: var(--tint);
+   text-align: center;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 10rem;
+
+}
+
+.logo{
+   height: auto;
+   width: auto;
+   align-items: center;
+   position: fixed;
+   z-index: 2;
+   float: left;
+   margin-left: 37%;
+}
+
+nav{
+   position: absolute;
+   text-align: left;
+   top: 100%;
+   width: 100%;
+   left: 0;
+   background: var(--tint);
+   color: rgb(18, 156, 161);
+   /* transform: scale(1,0);
+   transform-origin: top;
+   transition: transform 400ms ease-in-out; */
+}
+
+nav ul{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+
+}
+
+nav ul li{
+   margin-left: 1em;
+   margin-bottom: 1em;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 1.2rem;
+}
+
+/* .nav-toggle{
+ display: none;
+}
+
+.nav-toggle-label{
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-left: 1em;
+   z-index: 11;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+/* Setting up the hamburger */
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+   margin: 0;
+   padding: 0;
+   display: block;
+   position: relative;
+   height: 4px;
+   border-radius: 2px;
+   width: 3em;
+}
+
+.nav-toggle-label span{
+   background-color: rgb(105, 36, 36);
+}
+.nav-toggle-label span::before{
+   content: '';
+   bottom: 0.7rem;
+   height: 10px;
+   background-color: rgb(147, 86, 86);
+}
+.nav-toggle-label span::after{
+   content: '';
+   height: 10px;
+   top: -0.25rem;
+   background-color: rgb(147, 86, 86);
+} */
+.website-content{
+   position: absolute;
+   margin-top: 10rem;
+}
+/* The animation magic */
+/* .nav-toggle:checked ~ nav{
+   transform: scale(1,1);
+} */

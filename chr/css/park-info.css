@@ -1,0 +1,7 @@
+.heading1{
+   font-size: 4rem;
+   font-family: 'Matura MT Script Capitals';
+   color: var(--bigBlue);
+   text-transform: capitalize;
+   text-align: center;
+}
