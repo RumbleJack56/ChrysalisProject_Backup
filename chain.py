@@ -2,6 +2,8 @@ import hashlib
 import time
 import json
 
+
+
 class Blockchain(object):
     def __init__(self):
         #defines blockchain, transaction pool, genesis block
